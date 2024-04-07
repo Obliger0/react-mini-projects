@@ -1,0 +1,65 @@
+.container{
+    width: 350px;
+    position: relative;
+}
+
+.accordion-card-hide{
+    background-color: rgb(231, 79, 89);
+    padding: 35px 15px 20px 15px;
+    border-radius: 15px;
+    height: 35px;
+    overflow: hidden; 
+    margin: 20px;   
+    text-align: start;
+    animation: slideOut 1s ease-out;
+}
+
+.accordion-card-show {
+    background-color: rgb(231, 79, 89);
+    padding: 35px 15px 20px 15px;
+    border-radius: 15px;
+    overflow: hidden; 
+    margin: 20px;   
+    text-align: start;
+    height: fit-content;
+    animation: slidein 1s ease-in;
+}
+
+.btn{
+    position: absolute;
+    border-style: none;
+    background-color: transparent;
+    top: 30px;
+    border-radius: 5px;
+    right: 30px;
+    font-size: 15px;
+    color: white;
+    box-shadow: 1px 1px 4px 1px white;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.btn-rotate{
+    transform: rotate(90deg);
+    transition: all 0.3s ease-in;
+}
+
+
+@keyframes slidein {
+    0% {
+       height: 35px;
+    }
+    25% {
+       height: 70px;
+    }
+    50% {
+       height: 100px;
+    }
+    75% {
+       height: 140px;
+    }
+    100% {
+       height: 180px;
+    }
+}
+

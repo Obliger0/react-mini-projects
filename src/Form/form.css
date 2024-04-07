@@ -1,0 +1,16 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    text-align: start;
+}
+
+.error-message{
+    color: red;
+    font-size: 10px;
+
+}
+
+.subject{
+    height: fit-content;
+}

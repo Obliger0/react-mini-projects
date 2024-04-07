@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.drop-zone{
+    border-top: 5px dashed black;
+    border-bottom: 5px dashed black;
+    font-size: 40px;
+    margin-top: 40px;
+    width: 500px;
+}
+
+.onDrag-drop-zone{
+    border-top: 5px dashed #1eaae7;
+    border-bottom: 5px dashed #1eaae7;
+    color: #1eaae7;
+}
+
+.file-label{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 60px;
+    color: black;
+}

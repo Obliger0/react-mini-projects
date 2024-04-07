@@ -1,0 +1,58 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: fit-content;
+    border: 3px solid rgb(82, 81, 81);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#date {
+    display: flex;
+}
+
+#month {
+    width: 50px;
+    margin-right: 3px;
+}
+
+button {
+    width: 100px;
+    margin: 10px;
+}
+
+.debit-input-container {
+    display: flex;
+    margin: 10px;
+    width: 120px;
+    border: 1.5px solid gray;
+    border-radius: 1px;
+}
+
+.card{
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 25%;
+    border-style: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.debit-input-container:focus{
+    border: 12px solid black;
+}
+.card:focus{
+    outline: none;
+
+}

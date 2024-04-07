@@ -1,0 +1,20 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    position: relative;
+}
+
+.image-card{
+    margin: 5px;
+}
+.image-card:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px 18px 6px white;
+}
+
+.preview{
+    position: absolute;
+    width: 300px;
+    transform: translate(50%,50%);
+}

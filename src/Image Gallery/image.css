@@ -1,0 +1,40 @@
+.image-box{
+    position: relative;
+    width: 300px;
+    box-shadow: 2px 2px 14px 6px white;
+    background-color: white;
+}
+
+.open-image{
+    background-color: white;
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.cover{
+    position: absolute;
+    top: 0px;
+    background-color: rgb(214, 68, 68);
+    width: 100%;
+    bottom: 0px;
+    height: 550px;
+    box-shadow: 1px 1px 20px 1px rgb(214, 68, 68);
+    font-size: 30px;
+    transition: 1.5s;
+}
+
+.open-image:hover ~ .cover{
+    cursor: pointer;
+    height: 0px;
+}
+
+.cover:hover{
+    cursor: pointer;
+    height: 0px;
+    color: transparent;
+}
+
+
+
